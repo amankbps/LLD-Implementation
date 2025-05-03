@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bbf6f18-c9b6-477f-8085-1fdde68034a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lrucache/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lrucache/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lrucache/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snakeandladder/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snakeandladder/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snakeandladder/Ladder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snakeandladder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snakeandladder/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snakeandladder/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snakeandladder/SnakeAndLadderGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.lrucache.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -48,7 +53,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.lrucache.Main">
+  <component name="RunManager" selected="Application.snakeandladder.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TicTakToe.Main" />
       <module name="LLD-Implementation" />
@@ -75,8 +80,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="snakeandladder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="snakeandladder.Main" />
+      <module name="LLD-Implementation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="snakeandladder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.snakeandladder.Main" />
         <item itemvalue="Application.lrucache.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -98,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1746106544917</updated>
-      <workItem from="1746106546014" duration="5465000" />
+      <workItem from="1746106546014" duration="11172000" />
     </task>
     <servers />
   </component>
