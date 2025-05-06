@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bbf6f18-c9b6-477f-8085-1fdde68034a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/snakeandladder/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snakeandladder/Dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snakeandladder/Ladder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snakeandladder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snakeandladder/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snakeandladder/Snake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snakeandladder/SnakeAndLadderGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lfucache/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lfucache/LFUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lfucache/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lfucache/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lrucache/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lrucache/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lrucache/LRUCache.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2wUqXuzOd5nRYZ8ZTqHK3Cqq6z8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.lfucache.Main.executor": "Run",
     "Application.lrucache.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -53,13 +54,31 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.snakeandladder.Main">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lrucache" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.lrucache.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TicTakToe.Main" />
       <module name="LLD-Implementation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TicTakToe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lfucache.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lfucache.Main" />
+      <module name="LLD-Implementation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lfucache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,8 +114,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.snakeandladder.Main" />
         <item itemvalue="Application.lrucache.Main" />
+        <item itemvalue="Application.lfucache.Main" />
+        <item itemvalue="Application.snakeandladder.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -118,6 +138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746106544917</updated>
       <workItem from="1746106546014" duration="11172000" />
+      <workItem from="1746509932912" duration="6617000" />
     </task>
     <servers />
   </component>
