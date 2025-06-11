@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bbf6f18-c9b6-477f-8085-1fdde68034a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lfucache/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lfucache/LFUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lfucache/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lfucache/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lrucache/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logginframework/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logginframework/LoggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logginframework/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logginframework/formatter/DefaultFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logginframework/formatter/LogFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logginframework/logappender/ConsoleAppender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logginframework/logappender/FileAppender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logginframework/logappender/LogAppender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logginframework/model/LogLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logginframework/model/LogMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingmachine/Coin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingmachine/IdleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingmachine/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingmachine/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingmachine/VendingMachineState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lrucache/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lrucache/LRUCache.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -41,6 +52,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.lfucache.Main.executor": "Run",
+    "Application.logginframework.Main.executor": "Run",
     "Application.lrucache.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -59,7 +71,7 @@
       <recent name="lrucache" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lrucache.Main">
+  <component name="RunManager" selected="Application.logginframework.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TicTakToe.Main" />
       <module name="LLD-Implementation" />
@@ -79,6 +91,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lfucache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="logginframework.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logginframework.Main" />
+      <module name="LLD-Implementation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="logginframework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,6 +139,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.logginframework.Main" />
         <item itemvalue="Application.lrucache.Main" />
         <item itemvalue="Application.lfucache.Main" />
         <item itemvalue="Application.snakeandladder.Main" />
@@ -138,7 +164,8 @@
       <option name="presentableId" value="Default" />
       <updated>1746106544917</updated>
       <workItem from="1746106546014" duration="11172000" />
-      <workItem from="1746509932912" duration="6617000" />
+      <workItem from="1746509932912" duration="9319000" />
+      <workItem from="1749273476831" duration="5637000" />
     </task>
     <servers />
   </component>
