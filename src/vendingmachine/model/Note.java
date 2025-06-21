@@ -1,4 +1,4 @@
-package vendingmachine;
+package vendingmachine.model;
 
 public enum Note {
         ONE(1),

@@ -5,22 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bbf6f18-c9b6-477f-8085-1fdde68034a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/logginframework/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logginframework/LoggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logginframework/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logginframework/formatter/DefaultFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logginframework/formatter/LogFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logginframework/logappender/ConsoleAppender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logginframework/logappender/FileAppender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logginframework/logappender/LogAppender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logginframework/model/LogLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logginframework/model/LogMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendingmachine/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendingmachine/IdleState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendingmachine/Note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendingmachine/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendingmachine/VendingMachineState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingmachine/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingmachine/VendingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingmachine/state/DispenseState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingmachine/state/ReadyState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingmachine/state/ReturnChangeState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendingmachine/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendingmachine/model/Coin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendingmachine/IdleState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendingmachine/state/IdleState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendingmachine/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendingmachine/model/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendingmachine/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendingmachine/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendingmachine/VendingMachineState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendingmachine/state/VendingMachineState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.lfucache.Main.executor": "Run",
     "Application.logginframework.Main.executor": "Run",
@@ -57,12 +54,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Aman/Downloads/github-copilot-intellij-1.5.47-243.zip",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Developer/LLD-Implementation/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -71,16 +70,10 @@
       <recent name="lrucache" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.logginframework.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TicTakToe.Main" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LLD-Implementation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TicTakToe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.logginframework.Main" />
         <item itemvalue="Application.lrucache.Main" />
         <item itemvalue="Application.lfucache.Main" />
         <item itemvalue="Application.snakeandladder.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +158,9 @@
       <updated>1746106544917</updated>
       <workItem from="1746106546014" duration="11172000" />
       <workItem from="1746509932912" duration="9319000" />
-      <workItem from="1749273476831" duration="5637000" />
+      <workItem from="1749273476831" duration="6104000" />
+      <workItem from="1750488348581" duration="22000" />
+      <workItem from="1750488384242" duration="4509000" />
     </task>
     <servers />
   </component>
